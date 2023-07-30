@@ -9,7 +9,7 @@ const app = express();
 
 app.use(cors({
     origin: "https://jocular-cannoli-8fde11.netlify.app",
-    methods: ["GET", "POST", "PATCH"]
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
 }   
 ));
 
