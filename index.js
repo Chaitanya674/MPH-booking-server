@@ -8,7 +8,7 @@ const { Login , Register , Books , ConfBook , ConfBooked , getUserData} = requir
 const app = express();
 
 app.use(cors({
-    origin: "site_url",
+    origin: "https://jocular-cannoli-8fde11.netlify.app",
     methods: ["GET", "POST", "PATCH"]
 }   
 ));
